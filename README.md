@@ -35,7 +35,7 @@
 {
   "mcpServers": {
     "smart-search": {
-      "command": "uvx",
+      "command": "uv",
       "args": [
         "run",
         "src/mcp-smartsearch/server.py"

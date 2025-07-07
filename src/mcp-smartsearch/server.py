@@ -55,4 +55,4 @@ async def smart_search(
 
 if __name__ == "__main__":
     print("Starting MCP SmartSearch Service...")
-    mcp.run(transport="streamable-http")
+    mcp.run(transport="stdio")
