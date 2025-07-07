@@ -31,10 +31,11 @@
 
 在 ModelScope 创建 MCP 服务时，请使用以下配置。这种方式会从你的 GitHub 仓库拉取代码，并直接运行。
 
-```json
+UV
+
 {
   "mcpServers": {
-    "smart-search": {
+    "mcp-smartsearch": {
       "command": "uv",
       "args": [
         "run",
@@ -46,13 +47,3 @@
     }
   }
 }
-```
-
-**重要提示**:
-
-1.  在 ModelScope 的“**基础信息**”页面，确保“**来源地址**”填写的是你正确的 GitHub 仓库地址。
-2.  在“**环境变量配置**”区域，将 `SERVER_KEY` 的值设置为你自己的 API 密钥。
-
-## 许可证
-
-本项目基于 MIT License 发布。
