@@ -53,6 +53,9 @@ async def smart_search(
     # Run the synchronous network code in a separate thread to avoid blocking
     return await asyncio.to_thread(sync_search)
 
-if __name__ == "__main__":
+def main():
     print("Starting MCP SmartSearch Service...")
     mcp.run(transport="stdio")
+
+if __name__ == "__main__":
+    main()
