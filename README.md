@@ -35,10 +35,9 @@
 {
   "mcpServers": {
     "mcp-smartsearch": {
-      "command": "uv",
+      "command": "uvx",
       "args": [
-        "run",
-        "src/mcp-smartsearch/server.py"
+        "mcp-smartsearch"
       ],
       "env": {
         "SERVER_KEY": "YOUR_API_KEY_HERE"
