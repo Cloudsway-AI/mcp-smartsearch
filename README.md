@@ -31,8 +31,7 @@
 
 在 ModelScope 创建 MCP 服务时，请使用以下配置。这种方式会从你的 GitHub 仓库拉取代码，并直接运行。
 
-UV
-
+```json
 {
   "mcpServers": {
     "mcp-smartsearch": {
@@ -47,3 +46,4 @@ UV
     }
   }
 }
+```
